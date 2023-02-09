@@ -14,6 +14,7 @@ export default function Role({ navigation }) {
         <Text style={{fontSize:30,fontWeight:'bold'}}>Chose Account Type</Text>
       </View>
       <Pressable
+        onPress={()=>{navigation.navigate('dev_main')}}
         style={{
           backgroundColor: "#017AFF",
           flex: 1,

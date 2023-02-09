@@ -5,6 +5,7 @@ import First from "./first";
 import Second from "./second_process";
 import Login from "./Login";
 import Role from "../screens/role_selection";
+import Developer_Main from "../developer_screens/maind";
 
 
 const Stack = createNativeStackNavigator();
@@ -17,6 +18,7 @@ export default function Main() {
         <Stack.Screen name="Second_screen" component={Second} />
         <Stack.Screen name="login" component={Login} />
         <Stack.Screen name="role" component={Role}/>
+        <Stack.Screen name="dev_main" component={Developer_Main}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
