@@ -1,4 +1,3 @@
-import { StatusBar } from "expo-status-bar";
 import {
   StyleSheet,
   Text,
@@ -62,6 +61,7 @@ export default function Login({ navigation }) {
           }}
         >
           <Pressable
+            onPress={()=>{navigation.navigate('role')}}
             style={{
               marginBottom: "10%",
               backgroundColor: "#27AE60",
